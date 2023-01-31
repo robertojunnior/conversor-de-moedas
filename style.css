@@ -1,92 +1,108 @@
 body {
-    padding: 40px;
-    font-family: 'poppins', arial;
-    background-image: url("https://github.com/robertojunnior/imersao-aluradev/blob/main/imagens/fundo-calculadora-roberjunnior.jpg?raw=true");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-position: center;  
-  }
-  
-  main {
-    background-color: #2f2f2f;
-    border-radius: 80px 10px 80px 10px;
-    /* border-radius: 40px; */
-    width: 530px;
-    padding: 10px;
-    display: flex;
-    align-items: center; 
-    flex-direction: column;
-    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.20);
-  }
+  padding: 60px;
+  font-family: 'poppins', arial;
+  background-image: url("https://github.com/robertojunnior/imersao-aluradev/blob/main/imagens/fundo-calculadora-roberjunnior.jpg?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;  
 
-  #titulo-programa {
-    color: #ffffff;
-    font-size: 48px;
-    line-height: 1;
-    font-weight: 800;
-    padding: 10px 30px;  
-  }
-
-  #saco-moeda {
-    height: 90px;
-    width: 90px;
-  }
+  display: flex;
+  flex-direction: column;
+}
   
-  #saco-moeda:hover {
+main {
+  background-color: #2f2f2f;
+  border-radius: 80px 10px 80px 10px;
+  /* border-radius: 40px; */
+  width: 530px;
+  padding: 10px;
+  display: flex;
+  align-items: center; 
+  flex-direction: column;
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.20);
+}
+
+#titulo-programa {
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 800;
+  padding: 10px 30px;  
+}
+
+#saco-moeda {
+  height: 90px;
+  width: 90px;
+}
+
+#saco-moeda:hover {
+  transform: scale(1.1);
+  transition: 1.5s ease;
+}
+
+.container-titulo {
+  width: 530px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+  
+.container-valor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  padding-bottom: 30px;
+}
+
+
+.digite-valor-para h1 {
+  color: #ffffff;
+  gap: 10px;
+}
+
+label {
+  color: #E8A824;
+}
+
+input {
+  padding: 20px;
+  border-radius: 10px 5px;
+  /* border-radius: 10px; */
+  margin: 5px 0px 10px;
+  text-align: left;
+}
+
+button {
+  background-color: #E8A824;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 10px 5px;
+  /* border-radius: 10px; */
+  margin-top: 5px;
+}
+
+
+button:hover {
     transform: scale(1.1);
     transition: 1.5s ease;
 }
 
-  .container-titulo {
-    width: 530px;
-    display: flex;
-    align-items: center;
-    gap: 50px;
-  }
-    
-  .container-valor {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 450px;
-    padding-bottom: 30px;
-  }
+.logo {
+  /* background-color: aqua; */
+  display: flex;
+
+  margin-top: 200px;
+  width: 500px;
+}
+
+.logo img {
+  width: 160px;
+  padding-left: 40px;
   
-  
-  .digite-valor-para h1 {
-    color: #ffffff;
-    gap: 10px;
-  }
-  
-  label {
-    color: #E8A824;
-  }
-  
-  input {
-    padding: 20px;
-    border-radius: 10px 5px;
-    /* border-radius: 10px; */
-    margin: 5px 0px 10px;
-    text-align: left;
-  }
-  
-  button {
-    background-color: #E8A824;
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: 700;
-    padding: 10px;
-    border-radius: 10px 5px;
-    /* border-radius: 10px; */
-    margin-top: 5px;
-  }
-  
- 
-  button:hover {
-      transform: scale(1.1);
-      transition: 1.5s ease;
-  }
-  
-  
+
+}
   
