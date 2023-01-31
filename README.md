@@ -36,7 +36,7 @@ O projeto foi estilzado por mim com CSS, programação JavaScript e inputs em um
 
 ## 🚀 Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
 <li> HTML
 <li> CSS
