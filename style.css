@@ -1,4 +1,89 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+body {
+    padding: 40px;
+    font-family: 'poppins', arial;
+    background-image: url("https://github.com/robertojunnior/imersao-aluradev/blob/main/imagens/fundo-calculadora-roberjunnior.jpg?raw=true");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;  
+  }
+  
+  .titulo {
+    background-color: #1D1E22;
+    border-radius: 80px 10px 0px 0px;
+    width: 530px;
+    padding: 10px;
+    display: flex;
+    align-itens: center; 
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.20);
+    
+  }
+  
+  #titulo-programa {
+    color: #ffffff;
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 800;
+    padding: 30px;  
+  }
+  
+  .container {
+    background-color: #1D1E22;
+    border-radius: 0px 0px 80px 10px;
+    display: flex;
+    align-itens: center;
+    justify-content: center;
+    padding: 50px;
+    width: 450px;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.20);
+  }
+  
+  
+  .entradas h1 {
+    color: #ffffff;
+    gap: 10px;
+  }
+  
+  label {
+    color: #E8A824;
+  }
+  
+  input {
+    padding: 20px;
+    border-radius: 10px 0px;
+    margin: 5px 0px 10px;
+    text-align: left;
+  }
+  
+  .direita-valores {
+    
+  }
+  
+  button {
+    background-color: #E8A824;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 10px 0px;
+    margin-top: 5px;
+  }
+  
+  img {
+    margin: auto;
+    height:90px;
+    width: 90px;
+  }
+  
+  img:hover {
+      transform: scale(1.1);
+      transition: 1.5s ease;
+  }
+  
+  button:hover {
+      transform: scale(1.1);
+      transition: 1.5s ease;
+  }
+  
+  
+  
