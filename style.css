@@ -8,38 +8,53 @@ body {
     background-position: center;  
   }
   
-  .titulo {
-    background-color: #1D1E22;
-    border-radius: 80px 10px 0px 0px;
+  main {
+    background-color: #2f2f2f;
+    border-radius: 80px 10px 80px 10px;
+    /* border-radius: 40px; */
     width: 530px;
     padding: 10px;
     display: flex;
-    align-itens: center; 
+    align-items: center; 
+    flex-direction: column;
     box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.20);
-    
   }
-  
+
   #titulo-programa {
     color: #ffffff;
     font-size: 48px;
     line-height: 1;
     font-weight: 800;
-    padding: 30px;  
+    padding: 10px 30px;  
+  }
+
+  #saco-moeda {
+    height: 90px;
+    width: 90px;
   }
   
-  .container {
-    background-color: #1D1E22;
-    border-radius: 0px 0px 80px 10px;
+  #saco-moeda:hover {
+    transform: scale(1.1);
+    transition: 1.5s ease;
+}
+
+  .container-titulo {
+    width: 530px;
     display: flex;
-    align-itens: center;
+    align-items: center;
+    gap: 50px;
+  }
+    
+  .container-valor {
+    display: flex;
+    align-items: center;
     justify-content: center;
-    padding: 50px;
     width: 450px;
-    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.20);
+    padding-bottom: 30px;
   }
   
   
-  .entradas h1 {
+  .digite-valor-para h1 {
     color: #ffffff;
     gap: 10px;
   }
@@ -50,13 +65,10 @@ body {
   
   input {
     padding: 20px;
-    border-radius: 10px 0px;
+    border-radius: 10px 5px;
+    /* border-radius: 10px; */
     margin: 5px 0px 10px;
     text-align: left;
-  }
-  
-  .direita-valores {
-    
   }
   
   button {
@@ -65,21 +77,12 @@ body {
     font-size: 18px;
     font-weight: 700;
     padding: 10px;
-    border-radius: 10px 0px;
+    border-radius: 10px 5px;
+    /* border-radius: 10px; */
     margin-top: 5px;
   }
   
-  img {
-    margin: auto;
-    height:90px;
-    width: 90px;
-  }
-  
-  img:hover {
-      transform: scale(1.1);
-      transition: 1.5s ease;
-  }
-  
+ 
   button:hover {
       transform: scale(1.1);
       transition: 1.5s ease;
