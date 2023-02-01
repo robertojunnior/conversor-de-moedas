@@ -90,16 +90,17 @@ main {
 
 .digite-valor-para h1 {
   color: #ffffff;
+  line-height: 2.5rem;
 }
 
 .digite-valor-para button {
   background-color: #E8A824;
   color: #ffffff;
-  font-size: 32px;
-  font-weight: 700;
+  font-size: 25px;
+  font-weight: 600;
   padding: 10px;
   border: none;
-  border-radius: 10px 5px;
+  border-radius: 10px 3px;
   margin-top: 25px;
 
   
