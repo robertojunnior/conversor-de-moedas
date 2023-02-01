@@ -1,0 +1,15 @@
+@media  (min-width: 1500px ) {
+    main {
+        margin-left:200px ;
+        transition-duration: 3s;
+
+    }
+}
+
+@media  (max-width: 1500px ) {
+    main {
+        margin-left:0px ;
+        transition-duration: 3s;
+
+    }
+}

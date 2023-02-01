@@ -20,7 +20,7 @@ main {
   display: flex;
   align-items: center; 
   flex-direction: column;
-  box-shadow: 5px 10px 10px rgba(202, 119, 11, 0.842);
+  box-shadow: 5px 10px 10px rgba(73, 50, 20, 0.2);
 }
 
 #titulo-programa {
