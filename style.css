@@ -13,16 +13,17 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  width: 100vw;
+  /* width: 100vw; */
   background-position: center;  
   
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
 }
 
 header {
   /* background-color: aqua; */
-  height: 80px;
+  height: 100px;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -30,7 +31,7 @@ header {
 }
 
 #logo {
- width: 70px;
+ width: 80px;
  margin: 0px 100px;
 }
 
@@ -51,7 +52,6 @@ main {
   border-radius: 80px 10px 80px 10px;
   /* border-radius: 40px; */
   width: 600px;
-  padding: 10px;
   display: flex;
   align-items: center; 
   flex-direction: column;
