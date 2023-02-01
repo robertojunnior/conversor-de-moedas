@@ -1,7 +1,8 @@
 * {
   margin: 0;
   list-style: none;
-
+  text-decoration: none;
+  color: #2f2f2f;
 }
 
 body {
@@ -20,7 +21,6 @@ body {
 }
 
 header {
-  background-color: aqua;
   width: 100vw;
   display: flex;
   justify-content: space-between;
@@ -34,10 +34,13 @@ header {
 .menu {
   display: flex;
   align-items: center;
-padding-right: 100px;
+  padding-right: 50px;
   height: 100%;
-  flex-direction: row;
-  /* gap: 5px; */
+  gap: 10px;
+}
+
+.menu li img {
+  width: 40px;
 }
 
 
