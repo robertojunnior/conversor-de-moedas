@@ -82,6 +82,7 @@ main {
 }
   
 .container-valor {
+  /* background-color: aquamarine; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -93,29 +94,40 @@ main {
   color: #ffffff;
 }
 
+.valores {
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+ }
+
 label {
   color: #E8A824;
 }
 
 input {
   padding: 20px;
-  width: 200px;
+  width: 220px;
   border-radius: 10px 5px;
   margin: 5px 0px 10px;
   text-align: left;
 }
 
-.moedas {
-  margin-top: 20px;
-  display: grid;
-  grid-row: ;
-  
-  gap: 13px;
+.selecao-moedas {
+  /* background-color: aqua; */
+  width: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5rem;
 }
 
 #moedas {
   background-color: #ffffff;
   width: 60px;
+  margin-top: 10px;
 }
 
 button {
