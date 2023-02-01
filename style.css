@@ -5,12 +5,14 @@
 body {
   
   font-family: 'poppins', arial;
-  background-image: url("https://github.com/robertojunnior/imersao-aluradev/blob/main/imagens/fundo-calculadora-roberjunnior.jpg?raw=true");
+  background-image: url("https://github.com/robertojunnior/imersao-aluradev/blob/main/imagens/background-conversor-roberjunnir.png?raw=true");
 
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   height: 100vh;
-  /* background-position: center;   */
+  width: 100vw;
+  background-position: center right;  
+  background-attachment: scroll;
   
   display: flex;
   flex-direction: column;
@@ -44,7 +46,8 @@ main {
 
 #titulo-programa {
   color: #ffffff;
-  font-size: 48px;
+  /* font-size: 48px; */
+  font-size: 3rem;
   line-height: 1;
   font-weight: 800;
   padding: 30px 30px;  
