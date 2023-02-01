@@ -23,10 +23,9 @@
 
 /* Responsivo mobile */
 
-@media only screen and (max-width: 698px) {
-    body {
-        background-size: cover;
-        background-position: bottom;
-        
+@media only screen and (max-width: 725px) {
+    main {
+        margin-left:10px ;
+        transition-duration: 3s;
     }
 }
