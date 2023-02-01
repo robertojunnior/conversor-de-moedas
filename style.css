@@ -82,16 +82,32 @@ main {
 }
   
 .container-valor {
-  /* background-color: aquamarine; */
   display: flex;
   align-items: center;
-  justify-content: center;
   width: 480px;
   padding-bottom: 30px;
 }
 
 .digite-valor-para h1 {
   color: #ffffff;
+}
+
+.digite-valor-para button {
+  background-color: #E8A824;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 700;
+  padding: 10px;
+  border: none;
+  border-radius: 10px 5px;
+  margin-top: 25px;
+
+  
+}
+
+button:hover {
+  transform: scale(1.1);
+  transition: 1.5s ease;
 }
 
 .valores {
@@ -129,19 +145,5 @@ input {
   width: 60px;
 }
 
-button {
-  background-color: #E8A824;
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 700;
-  padding: 10px;
-  border-radius: 10px 5px;
-  margin-top: 5px;
-}
 
-
-button:hover {
-    transform: scale(1.1);
-    transition: 1.5s ease;
-}
   
