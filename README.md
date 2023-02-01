@@ -2,7 +2,7 @@
 <h1 align="center"> CONVERSOR DE MOEDAS </h1>
 
 <p align="center">
-Imersão Alura Dev é um evento exclusivo e gratuito, promovido pela Alura para ensino de tecnologias WEB. <br/>
+Projeto iniciado com participação da Imersão Alura, um evento gratuito que está na sua 6ª edição. <br/>
 </p>
 
 <p align="center">
@@ -29,8 +29,7 @@ Imersão Alura Dev é um evento exclusivo e gratuito, promovido pela Alura para 
 <br>
 
 <br>
-🧑‍🚀 Este projeto foi apresentado por Paulo Silveira, Raaella ballerini e Guilherme Silva. 
-O projeto foi estilzado por mim com CSS, programação JavaScript e inputs em uma interface de design moderno e fácil uso!
+🧑‍🚀 A idéia deste projeto foi apresentado por Paulo Silveira, Raaella ballerini e Guilherme Silva no 1° dias da imersão AluraDev. Não satisfeito rs, parei tudo que estava fazendo e estilizei com o que aprendi de CSS até hoje convidando meu amigo @FernandoMontanari(GitHub), que é aluno da ALURA para implementar a programação em JavaScript com inputs, alimentando os dados por uma API e uma interface de design moderno e fácil uso!
 
 <br>
 
