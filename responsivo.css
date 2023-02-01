@@ -1,15 +1,32 @@
-@media  (min-width: 1500px ) {
+/* Responsivo para desktop full hd & widescreen */
+@media  (min-width: 1300px ) {
+    main {
+        margin-left:100px ;
+        transition-duration: 3s;
+
+    }
+}
+@media  (min-width: 1600px ) {
     main {
         margin-left:200px ;
         transition-duration: 3s;
-
     }
 }
 
 @media  (max-width: 1500px ) {
     main {
-        margin-left:0px ;
+        margin-left:100px ;
         transition-duration: 3s;
 
+    }
+}
+
+/* Responsivo mobile */
+
+@media only screen and (max-width: 698px) {
+    body {
+        background-size: cover;
+        background-position: bottom;
+        
     }
 }

@@ -1,22 +1,41 @@
+* {
+  margin: 0;
+}
+
 body {
-  padding: 60px;
+  
   font-family: 'poppins', arial;
   background-image: url("https://github.com/robertojunnior/imersao-aluradev/blob/main/imagens/fundo-calculadora-roberjunnior.jpg?raw=true");
+
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  background-position: center;  
-
+  /* background-position: center;   */
+  
   display: flex;
   flex-direction: column;
 }
+
+header {
+  /* background-color: aqua; */
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+
+#logo {
+ width: 100px;
+ margin: 20px 100px;
+}
+
+
   
 main {
   background-color: #2f2f2f;
   border-radius: 80px 10px 80px 10px;
   /* border-radius: 40px; */
   width: 530px;
-  padding: 10px;
+  padding: 20px;
   display: flex;
   align-items: center; 
   flex-direction: column;
@@ -28,7 +47,7 @@ main {
   font-size: 48px;
   line-height: 1;
   font-weight: 800;
-  padding: 10px 30px;  
+  padding: 30px 30px;  
 }
 
 #saco-moeda {
@@ -91,18 +110,12 @@ button:hover {
     transition: 1.5s ease;
 }
 
-.logo {
-  /* background-color: aqua; */
-  display: flex;
 
-  margin-top: 200px;
-  width: 500px;
-}
 
-.logo img {
+
+/* .logo img {
   width: 150px;
-  padding-left: 40px;
-  
+  margin-left: 100px;
 
-}
+} */
   
