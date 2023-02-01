@@ -1,5 +1,5 @@
-# imersao-aluradev
-<h1 align="center"> Projeto CONVERSOR DE MOEDAS </h1>
+
+<h1 align="center"> CONVERSOR DE MOEDAS </h1>
 
 <p align="center">
 Imersão Alura Dev é um evento exclusivo e gratuito, promovido pela Alura para ensino de tecnologias WEB. <br/>
