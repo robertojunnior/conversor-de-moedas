@@ -21,14 +21,17 @@ body {
 }
 
 header {
+  /* background-color: aqua; */
+  height: 80px;
   width: 100vw;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
 #logo {
- width: 100px;
- margin: 20px 100px;
+ width: 70px;
+ margin: 0px 100px;
 }
 
 .menu {
@@ -48,7 +51,7 @@ main {
   border-radius: 80px 10px 80px 10px;
   /* border-radius: 40px; */
   width: 600px;
-  padding: 20px;
+  padding: 10px;
   display: flex;
   align-items: center; 
   flex-direction: column;
