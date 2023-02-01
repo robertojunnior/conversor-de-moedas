@@ -20,7 +20,7 @@ Projeto iniciado com participação da Imersão Alura, um evento gratuito que es
 <br>
 
   <div align="center">
-    <a target="_blank" href="https://robertojunnior.github.io/imersao-aluradev/">
+    <a target="_blank" href="https://robertojunnior.github.io/conversor-de-moedas/">
     <img width="800px" src="./imagens/screenshot1366px.png" alt="projeto">
     </a>
   </div>
