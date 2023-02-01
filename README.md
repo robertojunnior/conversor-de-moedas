@@ -21,7 +21,7 @@ Imersão Alura Dev é um evento exclusivo e gratuito, promovido pela Alura para 
 
   <div align="center">
     <a target="_blank" href="https://robertojunnior.github.io/imersao-aluradev/">
-    <img width="800px" src="./imagens/projeto-conversor-moeda.png" alt="projeto">
+    <img width="800px" src="./imagens/screenshot2.png" alt="projeto">
     </a>
   </div>
 
