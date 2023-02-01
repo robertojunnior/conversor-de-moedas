@@ -43,14 +43,11 @@ header {
   width: 40px;
 }
 
-
-
-  
 main {
   background-color: #2f2f2f;
   border-radius: 80px 10px 80px 10px;
   /* border-radius: 40px; */
-  width: 530px;
+  width: 600px;
   padding: 20px;
   display: flex;
   align-items: center; 
@@ -88,14 +85,12 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 450px;
+  width: 480px;
   padding-bottom: 30px;
 }
 
-
 .digite-valor-para h1 {
   color: #ffffff;
-  gap: 10px;
 }
 
 label {
@@ -104,10 +99,23 @@ label {
 
 input {
   padding: 20px;
+  width: 200px;
   border-radius: 10px 5px;
-  /* border-radius: 10px; */
   margin: 5px 0px 10px;
   text-align: left;
+}
+
+.moedas {
+  margin-top: 20px;
+  display: grid;
+  grid-row: ;
+  
+  gap: 13px;
+}
+
+#moedas {
+  background-color: #ffffff;
+  width: 60px;
 }
 
 button {
@@ -117,7 +125,6 @@ button {
   font-weight: 700;
   padding: 10px;
   border-radius: 10px 5px;
-  /* border-radius: 10px; */
   margin-top: 5px;
 }
 
@@ -126,13 +133,4 @@ button:hover {
     transform: scale(1.1);
     transition: 1.5s ease;
 }
-
-
-
-
-/* .logo img {
-  width: 150px;
-  margin-left: 100px;
-
-} */
   

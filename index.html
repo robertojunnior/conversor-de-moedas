@@ -31,18 +31,30 @@
            <div class="container-valor">
                <div class="digite-valor-para">
                <h1 id="chamda">Digite o<br>valor para conversão</h1>
+               <button class="btn-converter">Converter</button>
            </div>
+           
            <div class="valores">
                <div class="direita-valores">
-                   <div class="textfield">
-                   <label for="text">Digite o valor</label>
-                   <input type="text" name="valor" placeholder="Digite o valor">
-                   </div>
-                   <div class="textfield">
-                   <label for="text">Moeda</label>
-                   <input type="text" name="cotacao" placeholder="Escolha a moeda">
-                   </div>
-                   <button class="btn-converter">Converter</button>
+                    <div class="digiteValor">
+                        <label for="text">Digite o valor</label>
+                        <input type="text" name="valor" placeholder="Digite o valor">
+                    </div>
+                    <!-- <div>
+                        <label for="text">Moedas</label>
+                    <div> -->
+                    <div class="moedas">
+                        <label for="text">Moedas</label>
+                        <input id="moedas" type="text" name="cotacao" placeholder="Moeda 1">
+                    
+                        <label for="text">X</label>
+                        <input id="moedas" type="text" name="cotacao" placeholder="Moeda 2">
+                    </div>
+
+                    <div class="digiteValor">
+                        <label for="text">Resultado</label>
+                        <input type="text" name="valor" placeholder="Digite o valor">
+                    </div>
                </div>
            </div>
        </main>
