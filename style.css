@@ -5,13 +5,13 @@
 body {
   
   font-family: 'poppins', arial;
-  background-image: url("https://github.com/robertojunnior/imersao-aluradev/blob/main/imagens/background-conversor-roberjunnior.png?raw=true");
+  background-image: url("https://github.com/robertojunnior/imersao-aluradev/blob/main/imagens/background-conversor-roberjunnior1.png?raw=true");
 
   background-size: contain;
   background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
-  background-position: center right;  
+  background-position: center;  
   background-attachment: scroll;
   
   display: flex;
