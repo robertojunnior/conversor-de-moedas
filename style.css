@@ -1,5 +1,7 @@
 * {
   margin: 0;
+  list-style: none;
+
 }
 
 body {
@@ -13,22 +15,31 @@ body {
   width: 100vw;
   background-position: center;  
   
-  
   display: flex;
   flex-direction: column;
 }
 
 header {
-  /* background-color: aqua; */
+  background-color: aqua;
   width: 100vw;
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
 }
 
 #logo {
  width: 100px;
  margin: 20px 100px;
 }
+
+.menu {
+  display: flex;
+  align-items: center;
+padding-right: 100px;
+  height: 100%;
+  flex-direction: row;
+  /* gap: 5px; */
+}
+
 
 
   
