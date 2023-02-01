@@ -34,7 +34,7 @@ header {
 .menu {
   display: flex;
   align-items: center;
-  padding-right: 50px;
+  padding-right: 80px;
   height: 100%;
   gap: 10px;
 }
