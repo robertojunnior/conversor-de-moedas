@@ -49,6 +49,8 @@ main {
   align-items: center; 
   flex-direction: column;
   box-shadow: 5px 10px 10px rgba(73, 50, 20, 0.2);
+
+  animation: go-right 1s infinite alternate;
 }
 
 #titulo-programa {
@@ -139,4 +141,15 @@ input {
 #moedas {
   background-color: #ffffff;
   width: 60px;
+}
+
+
+
+@keyframes go-back {
+  from {
+    transform: translateX(100px);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
