@@ -9,20 +9,13 @@ body {
   
   font-family: 'poppins', arial;
   background-image: url(./imagens/background-conversor-roberjunnior2.png);
-
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  /* width: 100vw; */
   background-position: center;  
-  
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
 }
 
 header {
-  /* background-color: aqua; */
   height: 100px;
   width: 100vw;
   display: flex;
@@ -50,7 +43,7 @@ header {
 main {
   background-color: #2f2f2f;
   border-radius: 80px 10px 80px 10px;
-  /* border-radius: 40px; */
+
   width: 600px;
   display: flex;
   align-items: center; 
@@ -60,7 +53,6 @@ main {
 
 #titulo-programa {
   color: #ffffff;
-  /* font-size: 48px; */
   font-size: 3rem;
   line-height: 1;
   font-weight: 800;
