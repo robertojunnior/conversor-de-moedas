@@ -38,13 +38,14 @@ Projeto iniciado com participação da Imersão Alura, um evento gratuito que es
 Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
 <li> HTML
-<li> CSS
+<li> CSS - Animação
 <li> JavaScript
 <li> Git and GitHub
+<li> Consumo de API
 
 ## 💻 Projeto
 
-Minha intenção é fazer com que o conversor de moedas lhe possibilite acessar on-line a cotação no momento atual e converter o valor desejado.
+Nossa intenção é fazer com que o conversor de moedas lhe possibilite acessar on-line a cotação no momento atual e converter o valor desejado.
 Como ainda estou iniciando nos estudos de JavaScript, provável que o prazo seja extendido para finalização.
 
 [Visite o projeto online](https://robertojunnior.github.io/imersao-aluradev/)
