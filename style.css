@@ -143,8 +143,6 @@ input {
   width: 60px;
 }
 
-
-
 @keyframes go-back {
   from {
     transform: translateX(100px);
