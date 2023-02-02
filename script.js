@@ -1,6 +1,11 @@
-var valorDolar = 649.70;
-var cotacaoDolar = 5.32;
+// var digiteValor = 649;
+// var moeda1 = 4.50;
+// var moeda2 = 6.40;
 
-var valorReal = valorDolar * cotacaoDolar;
-valorReal = valorReal.toFixed(2);
-alert("R$" + valorReal);
+
+// var resultado = digiteValor * (moeda1 * moeda2);
+// resultado = resultado.toFixed(2);
+// alert("R$" + resultado);
+
+
+// var resultado = document.querySelector("resultado");
