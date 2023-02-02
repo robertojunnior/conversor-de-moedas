@@ -89,12 +89,12 @@ main {
 }
 
 .digite-valor-para button {
-  background-color: #E8A824;
+  background-color: #F19400;
   color: #ffffff;
   font-size: 25px;
   font-weight: 600;
   padding: 10px;
-  border: none;
+  border: 1px solid #ffffff;
   border-radius: 10px 3px;
   margin-top: 25px;
 
