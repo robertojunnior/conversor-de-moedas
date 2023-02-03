@@ -45,10 +45,10 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Nossa intenção é fazer com que o conversor de moedas lhe possibilite acessar on-line a cotação no momento atual e converter o valor desejado.
-Como ainda estou iniciando nos estudos de JavaScript, provável que o prazo seja extendido para finalização.
+Nossa intenção é fazer com que o conversor de moedas lhe possibilite acessar on-line a cotação no momento atual e converter o valor desejado consumindo a API da <a href="https://www.exchangerate-api.com/">EXCHANGE RATE.</a>
+Como ainda estou iniciando nos estudos de JavaScript, o Fernando ficou na missão de implantá-lo e vamos evoluindo conforme os estudos avançarem 🚀.
 
-[Visite o projeto online](https://robertojunnior.github.io/imersao-aluradev/)
+[Visite o projeto online](https://robertojunnior.github.io/conversor-de-moedas/)
 
 
 ## :memo: Licença
