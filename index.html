@@ -28,33 +28,50 @@
                <h1 id="titulo-programa">Conversor <br>de Moedas</h1>
                <img id="saco-moeda" src="https://github.com/robertojunnior/imersao-aluradev/blob/main/imagens/money-bag.png?raw=true" alt="icone-moeda">
            </div>
+           
            <div class="container-valor">
                <div class="digite-valor-para">
                <h1 id="chamda">Digite o<br>valor para conversão</h1>
-               <button class="btn-converter">converter</button>
+               
+               <button id="converterBtn">Converter</button>
+               
            </div>
+
+           
 
            <div class="valores">
                
                     <div class="digiteValor">
                         <label for="text">Digite o valor</label>
-                        <input type="text" name="valor" placeholder="Digite o valor">
+                        <input type="text" id="valor" placeholder="Insira o valor a ser convertido">
                     </div>
+
                     <div class="moedas">
                         <label for="text">Moedas</label>
 
                         <div class="selecao-moedas">
-                            <input id="moedas" type="text" name="cotacao" placeholder="Moeda 1">
-                            <label for="text">X</label>
-                            <input id="moedas" type="text" name="cotacao" placeholder="Moeda 2">
+                            <select id="moeda1">
+                                <option value="BRL">BRL</option>
+                                <option value="EUR">EUR</option>
+                                <option value="USD">USD</option>
+                                <option value="GBP">GBP</option>
+                              </select>
+                          
+                              <label for="text">X</label>
+                          
+                              <select id="moeda2">
+                                <option value="USD">USD</option>
+                                <option value="EUR">EUR</option>
+                                <option value="GBP">GBP</option>
+                                <option value="BRL">BRL</option>
+                              </select>
                         </div>
                     </div>
 
-                    <div class="digiteValor">
-                        <label for="text">Resultado</label>
-                        <input type="resultado" name="valor" placeholder="0">
+                    <div class="resultado">
+                        <label id="campo-resultado" for="text">Resultado</label>
                     </div>
-               
+                    <p id="resultado">0</p>
            </div>
        </main>
 

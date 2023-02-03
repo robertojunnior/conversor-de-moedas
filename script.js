@@ -1,11 +1,14 @@
-// var digiteValor = 649;
-// var moeda1 = 4.50;
-// var moeda2 = 6.40;
+const converterBtn = document.getElementById("converterBtn");
+converterBtn.addEventListener("click", function () {
+  const valor = document.getElementById("valor").value;
+  const moeda1 = document.getElementById("moeda1").value;
+  const moeda2 = document.getElementById("moeda2").value;
 
-
-// var resultado = digiteValor * (moeda1 * moeda2);
-// resultado = resultado.toFixed(2);
-// alert("R$" + resultado);
-
-
-// var resultado = document.querySelector("resultado");
+  fetch(`https://api.exchangerate-api.com/v4/latest/${moeda1}`)
+    .then(response => response.json())
+    .then(data => {
+      const exchangeRate = data.rates[moeda2];
+      const valorConvertido = (valor * exchangeRate).toFixed(2);
+      document.getElementById("resultado").innerHTML = `${valor} ${moeda1} = ${valorConvertido} ${moeda2}`;
+    });
+});
