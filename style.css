@@ -123,7 +123,8 @@ input {
   width: 220px;
   border-radius: 10px 5px;
   margin: 5px 0px 10px;
-  text-align: left;
+  color: #2f2f2f;
+  font-size: 14px;
 }
 
 .selecao-moedas {
@@ -131,7 +132,7 @@ input {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 1.5rem;
+  font-size: 14px;
   border: none;
   margin-bottom: 10px;
 }
@@ -152,12 +153,12 @@ input {
   width: 222px;
   padding: 18px;
   border-radius: 10px 5px;
+  font-size: 14px;
   color: #2f2f2f;
   border-width: 2px;
   border-style: inset;
   border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
   color: #2f2f2f;
-  
 }
 
 @keyframes go-back {
