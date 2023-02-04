@@ -61,7 +61,7 @@ main {
 .container-titulo {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 20px;
 }
 
 #titulo-programa {
@@ -69,11 +69,11 @@ main {
   font-size: 3rem;
   line-height: 1;
   font-weight: 800;
-  padding: 30px;  
+  padding: 30px;
 }
 
 #icone-moeda {
-  width: 90px;
+  width: 130px;
 }
 
 
