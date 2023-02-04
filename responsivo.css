@@ -24,10 +24,12 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        background-image: url(./imagens/background-conversor-roberjunnior3.png);
+        background-size: cover;
+        background-repeat: no-repeat;
         height: 100vh;
-        font-weight: 100vw;
-
-        background-image: url(./imagens/background-conversor-roberjunnior.png);
+        background-position: center;
+    
     }
 
     main {
