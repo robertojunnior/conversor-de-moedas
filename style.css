@@ -61,7 +61,7 @@ main {
 .container-titulo {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 40px;
 }
 
 #titulo-programa {
@@ -72,9 +72,12 @@ main {
   padding: 30px;  
 }
 
+#icone-moeda {
+  width: 90px;
+}
 
 
-#saco-moeda:hover {
+#icone-moeda:hover {
   transform: scale(1.1);
   transition: 1.5s ease;
 }
