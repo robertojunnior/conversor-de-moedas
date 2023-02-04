@@ -1,5 +1,5 @@
 /* Responsivo para desktop full hd & widescreen */
-@media only screen and (max-width: 1599px ) {
+@media (max-width: 1599px ) {
     main {
         margin-left:200px;
         margin-top: 60px;
@@ -7,7 +7,7 @@
     }
 }
 
-@media only screen and (min-width: 1600px ) {
+@media (min-width: 1600px ) {
     main {
         margin-left:200px;
         transition-duration: 3s;
@@ -17,23 +17,19 @@
 
 /* Responsivo mobile */
 
-@media only screen and (max-width: 725px) {
-    body {
-        margin: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        background-image: url(./imagens/background-conversor-roberjunnior3.png);
+@media (max-width: 725px) {
+
+    body {  
+        margin: 0px;
+        background-image: linear-gradient(45deg, #EA8D00, #FBA900);
+        heigt:100vh;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 100vh;
         background-position: center;
-    
     }
 
     main {
-        width: 300px;
+        width: 375px;
         height: 650px;
         padding: 20px;
     }
