@@ -50,7 +50,7 @@ Como ainda estou iniciando nos estudos de JavaScript, o Fernando ficou na missã
 
 [Visite o projeto online](https://robertojunnior.github.io/conversor-de-moedas/)
 
-<a href="https://br.freepik.com/fotos-gratis/close-up-em-uma-jovem-atraente-e-despreocupada-sentada-no-chao_12950967.htm#query=pessoa%20telefone&position=9&from_view=keyword">🖼️ A imagem do background pertence a wayhomestudio</a> no Freepik.
+🖼️ A imagem do background pertence a <a href="https://br.freepik.com/fotos-gratis/close-up-em-uma-jovem-atraente-e-despreocupada-sentada-no-chao_12950967.htm#query=pessoa%20telefone&position=9&from_view=keyword">wayhomestudio</a> no Freepik.
 
 
 ## :memo: Licença
