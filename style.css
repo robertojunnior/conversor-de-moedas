@@ -44,12 +44,25 @@ main {
   border-radius: 80px 10px 80px 10px;
   padding: 10px;
   width: 600px;
-  display: flex;
-  align-items: center; 
-  flex-direction: column;
   box-shadow: 5px 10px 10px rgba(73, 50, 20, 0.2);
-
   animation: go-right 1s infinite alternate;
+}
+
+@keyframes go-back {
+  from {
+    transform: translateX(100px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* -------------------------------BOX 1 */
+.container-titulo {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
 }
 
 #titulo-programa {
@@ -70,25 +83,9 @@ main {
   transition: 1.5s ease;
 }
 
-.container-titulo {
-  width: 530px;
-  display: flex;
-  align-items: center;
-  gap: 50px;
-}
-  
-.container-valor {
-  display: flex;
-  align-items: center;
-  width: 480px;
-  padding-bottom: 30px;
-}
-
-
-
-.digite-valor-para h1 {
+/* ------------------------------------BOX 2 */
+#chamada {
   color: #ffffff;
-  line-height: 2.5rem;
 }
 
 button {
@@ -108,14 +105,22 @@ button:hover {
   transition: 1.2s ease;
 }
 
+
+/* -------------------------------------BOX 3 */
 .valores {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  align-items: center;
+  padding: 30px;
 }
 
-.valores label {
+label {
   color: #E8A824;
+}
+
+
+.digiteValor {
+  display: flex;
+  flex-direction: column;
 }
 
 input {
@@ -161,11 +166,4 @@ input {
   color: #2f2f2f;
 }
 
-@keyframes go-back {
-  from {
-    transform: translateX(100px);
-  }
-  to {
-    transform: translateX(0);
-  }
-}
+/* FIM BOX's */

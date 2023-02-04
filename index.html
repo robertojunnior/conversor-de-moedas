@@ -28,51 +28,53 @@
                <h1 id="titulo-programa">Conversor <br>de Moedas</h1>
                <img id="saco-moeda" src="https://github.com/robertojunnior/conversor-de-moedas/blob/main/imagens/money-bag.png?raw=true" alt="icone-moeda">
            </div>
-           
-           <div class="container-valor">
-               <div class="digite-valor-para">
-               <h1 id="chamda">Digite o<br>valor para conversão</h1>
-               
-               <button id="converterBtn">Converter</button>
-               
-           </div>
 
-           
+            <!-- <div class="instrucao">
+                <h1 id="chamada">Digite o valor para conversão</h1>
+                <button id="converterBtn">Converter</button>
+            </div> -->
+            
+            <div class="valores">
+                <div class="instrucao">
+                    <h1 id="chamada">Digite o valor para conversão</h1>
+                    <button id="converterBtn">Converter</button>
+                </div>
 
-           <div class="valores">
-               
+
+                <div class="campo-valores">
                     <div class="digiteValor">
                         <label for="text">Digite o valor</label>
                         <input type="text" id="valor" placeholder="Insira o valor a ser convertido">
                     </div>
-
                     <div class="moedas">
                         <label for="text">Moedas</label>
-
                         <div class="selecao-moedas">
                             <select id="moeda1">
-                                <option value="BRL">BRL</option>
-                                <option value="EUR">EUR</option>
-                                <option value="USD">USD</option>
-                                <option value="GBP">GBP</option>
-                              </select>
-                          
-                              <label for="text">X</label>
-                          
-                              <select id="moeda2">
-                                <option value="USD">USD</option>
-                                <option value="EUR">EUR</option>
-                                <option value="GBP">GBP</option>
-                                <option value="BRL">BRL</option>
-                              </select>
+                            <option value="BRL">BRL</option>
+                            <option value="EUR">EUR</option>
+                            <option value="USD">USD</option>
+                            <option value="GBP">GBP</option>
+                            </select>
+                    
+                            <label for="text">X</label>
+                    
+                            <select id="moeda2">
+                            <option value="USD">USD</option>
+                            <option value="EUR">EUR</option>
+                            <option value="GBP">GBP</option>
+                            <option value="BRL">BRL</option>
+                            </select>
                         </div>
                     </div>
-
                     <div class="resultado">
                         <label id="campo-resultado" for="text">Resultado</label>
+                        <p id="resultado">0</p>
                     </div>
-                    <p id="resultado">0</p>
-           </div>
+                </div>
+            
+                
+            </div>
+            
        </main>
 
        <script src="script.js"></script>
