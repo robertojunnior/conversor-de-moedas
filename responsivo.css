@@ -28,51 +28,64 @@
 @media only screen and (max-width: 725px) {
     main {
         width: 300px;
-        height: 600px;
-
-        padding: 40px;
+        height: 650px;
+        padding: 20px;
     }
 
     .container-titulo {
-        /* background-color: coral; */
+        margin: 0;
         width: 100%;
+        display: flex;
         align-items: center;
         justify-content: center;
-        
+        flex-direction: column;
     }
 
     #titulo-programa {
-        font-size: 24px;
+        font-size: 40px;
+        padding: 0px;
     }
 
-    #saco-moeda {
-        height: 50px;
-        width: 50px;
-    }
-
-    #chamada {
-        font-size: 24px;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .container-valor {
-        background-color: aqua;
-        width: 100%;
-    }
-
-    .digiteValor {
-        /* background-color: violet; */
-        display: flex;
-        flex-direction: column;
+    #icone-moeda {
+        width: 90px;
+        padding-bottom: 20px;
     }
 
     .valores {
         /* background-color: tomato; */
+        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-}
+    .digiteValor {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 
+
+    #chamada {
+        font-size: 24px;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    input {
+        width: 180px;
+
+    }
+
+    .moedas {
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+}
