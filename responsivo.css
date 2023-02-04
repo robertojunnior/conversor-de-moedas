@@ -1,27 +1,19 @@
 /* Responsivo para desktop full hd & widescreen */
-@media  (min-width: 1600px ) {
+@media only screen and (max-width: 1599px ) {
     main {
-        margin-left:200px ;
-        margin-top: 130px;
-        transition-duration: 3s;
+        margin-left:200px;
+        margin-top: 60px;
+        transition-duration: 3s;        
     }
 }
 
-@media  (max-width: 1500px ) {
+@media only screen and (min-width: 1600px ) {
     main {
-        margin-left:100px ;
+        margin-left:200px;
         transition-duration: 3s;
+        margin-top: 180PX;
     }
 }
-
-@media  (min-width: 1300px ) {
-    main {
-        margin-left:100px ;
-        transition-duration: 3s;
-
-    }
-}
-
 
 /* Responsivo mobile */
 
@@ -29,6 +21,7 @@
     body {
         margin: 0;
         display: flex;
+        align-items: center;
         justify-content: center;
         flex-direction: column;
 

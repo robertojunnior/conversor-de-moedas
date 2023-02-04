@@ -11,7 +11,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  background-position: center;  
+  background-position: center;
+ 
 }
 
 header {
@@ -20,6 +21,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
 }
 
 #logo {
