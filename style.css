@@ -43,7 +43,7 @@ main {
   background-color: #2f2f2f;
   border-radius: 80px 10px 80px 10px;
   padding: 10px;
-  width: 600px;
+  width: 550px;
   box-shadow: 5px 10px 10px rgba(73, 50, 20, 0.2);
   animation: go-right 1s infinite alternate;
 }
@@ -59,7 +59,6 @@ main {
 
 /* -------------------------------BOX 1 */
 .container-titulo {
-  width: 600px;
   display: flex;
   align-items: center;
   gap: 50px;
@@ -70,13 +69,10 @@ main {
   font-size: 3rem;
   line-height: 1;
   font-weight: 800;
-  padding: 30px 30px;  
+  padding: 30px;  
 }
 
-#saco-moeda {
-  height: 90px;
-  width: 90px;
-}
+
 
 #saco-moeda:hover {
   transform: scale(1.1);
@@ -86,19 +82,21 @@ main {
 /* ------------------------------------BOX 2 */
 #chamada {
   color: #ffffff;
-  width: 70%;
-  /* font-size: 29px; */
+  font-size: 29px;
+  width: 90%;
+  padding-bottom: 10px;
 }
 
 button {
   background-color: #F19400;
+  width: 220px;
   color: #ffffff;
   font-size: 25px;
   font-weight: 600;
   padding: 10px;
   border: 1px solid #ffffff;
   border-radius: 10px 3px;
-  margin-top: 25px;
+  margin: 30px 0px 10px 0px;
   cursor: pointer;
 }
 
@@ -109,41 +107,31 @@ button:hover {
 
 
 /* -------------------------------------BOX 3 */
+
 .valores {
   display: flex;
   align-items: center;
   padding: 0px 30px 40px;
-  
-
 }
 
-label {
+.label {
   color: #E8A824;
-}
-
-
-.digiteValor {
-  display: flex;
-  flex-direction: column;
 }
 
 input {
   padding: 20px;
-  width: 220px;
+  width: 200px;
   border-radius: 10px 5px;
-  margin: 5px 0px 10px;
   color: #2f2f2f;
-  font-size: 14px;
 }
 
 .selecao-moedas {
-  width: 262px;
+  width: 220px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-size: 14px;
   border: none;
-  margin-bottom: 10px;
 }
 
 .selecao-moedas select {
@@ -159,7 +147,7 @@ input {
 
 #resultado {
   background-color: rgb(255, 255, 255);
-  width: 222px;
+  width: 180px;
   padding: 18px;
   border-radius: 10px 5px;
   font-size: 14px;
