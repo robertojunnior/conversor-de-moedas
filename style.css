@@ -110,7 +110,9 @@ button:hover {
 .valores {
   display: flex;
   align-items: center;
-  padding: 30px;
+  padding: 0px 30px 30px;
+  
+
 }
 
 label {
