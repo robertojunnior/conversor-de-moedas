@@ -1,8 +1,9 @@
 /* Responsivo para desktop full hd & widescreen */
 @media (max-width: 1599px ) {
     main {
-        margin-left:200px;
-        transition-duration: 3s;        
+        margin-left:130px;
+        transition-duration: 3s; 
+               
     }
 }
 
