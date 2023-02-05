@@ -26,15 +26,16 @@
         background-position: center;
 
         display: flex;
-        align-items: center;
+        align-items: left;
         flex-direction: column;
     }
 
     main {
-        margin-left: 0;
+        margin-left: 10px;
         transition-duration: 0s;
-        width: 375px;
-        padding-top: 30px;
+        width: 280px;
+        padding: 40px 0px 20px;
+        border-radius: 60px 10px 60px 10px;
 
     }
 
