@@ -29,7 +29,7 @@ Projeto iniciado com participação da Imersão Alura, um evento gratuito que es
 <br>
 
 <br>
-🧑‍🚀 A idéia deste projeto foi inspirada no 1° dia da imersão AluraDev apresentado por Paulo Silveira, Rafaella ballerini e Guilherme Lima. Não satisfeito rs, parei tudo que estava fazendo e estilizei com o que aprendi de CSS até hoje, ainda estou deixando ele responsivo e convidei meu amigo @FernandoMontanari(GitHub) que é aluno da ALURA para implementar a programação em JavaScript com inputs, alimentando os dados por uma API e uma interface de design moderno e fácil uso!
+🧑‍🚀 A idéia deste projeto foi inspirada no 1° dia da imersão AluraDev apresentado por Paulo Silveira, Rafaella ballerini e Guilherme Lima. Não satisfeito rs, parei tudo que estava fazendo e estilizei com o que aprendi de CSS até hoje, ainda estou deixando ele responsivo e convidei meu amigo @FernandoMontanari(GitHub) que é aluno da ALURA para implementar o JavaScript em uma PULL Resquest sobre a minha versão com dados alimentandos por uma API e uma interface de design moderno e fácil uso!
 
 <br>
 
