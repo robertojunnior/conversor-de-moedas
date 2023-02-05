@@ -17,7 +17,6 @@ body {
 
 header {
   height: 100px;
-  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -50,14 +49,14 @@ main {
   animation: go-right 1s infinite alternate;
 }
 
-@keyframes go-back {
+/* @keyframes go-back {
   from {
     transform: translateX(100px);
   }
   to {
     transform: translateX(0);
   }
-}
+} */
 
 /* -------------------------------BOX 1 */
 .container-titulo {
