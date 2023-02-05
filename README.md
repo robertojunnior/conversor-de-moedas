@@ -45,6 +45,7 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 <li> JavaScript
 <li> Git and GitHub
 <li> Consumo de API
+<li> Corel Draw 2022
 
 ## 💻 Projeto
 
