@@ -39,7 +39,7 @@ Projeto iniciado com participação da Imersão Alura, um evento gratuito que es
 Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
 <li> HTML
-<li> CSS - Animação
+<li> CSS
 <li> JavaScript
 <li> Git and GitHub
 <li> Consumo de API
