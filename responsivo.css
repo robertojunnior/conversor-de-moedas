@@ -19,23 +19,21 @@
 
 @media (max-width: 725px) {
 
-    body {  
-        margin-left: -200px;
-        background-image: linear-gradient(45deg, #EA8D00, #FBA900);
-        heigt:100vh;
+    body {
+        background-image: url(./imagens/mobile-bkg825px.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+
         display: flex;
-        justify-content: center;
         align-items: center;
         flex-direction: column;
     }
 
     main {
-        width: 375px;
-        height: 650px;
-        padding: 20px;
+        margin-left: 0;
+        transition-duration: 0s;
+
     }
 
     .container-titulo {
