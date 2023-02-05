@@ -2,7 +2,6 @@
 @media (max-width: 1599px ) {
     main {
         margin-left:200px;
-        margin-top: 60px;
         transition-duration: 3s;        
     }
 }
@@ -11,7 +10,7 @@
     main {
         margin-left:200px;
         transition-duration: 3s;
-        margin-top: 180PX;
+        margin-top: 140PX;
     }
 }
 
@@ -20,10 +19,10 @@
 @media (max-width: 725px) {
 
     body {
-        background-image: url(./imagens/mobile-bkg825px.png);
+        background-image: url(./imagens/mobile1080x1920.png);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: top;
 
         display: flex;
         align-items: left;
