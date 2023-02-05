@@ -42,8 +42,12 @@
         padding-right: 0px;
         height: 100%;
         gap: 10px;
-      }
+    }
 
+    .lista {
+        display: none;
+    }
+    
     main {
         margin: auto;
         transition-duration: 0s;
