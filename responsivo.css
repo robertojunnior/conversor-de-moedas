@@ -33,6 +33,18 @@
         margin-left: 20px;
     }
 
+    #github {
+        margin-right: 20px;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+        padding-right: 0px;
+        height: 100%;
+        gap: 10px;
+      }
+
     main {
         margin: auto;
         transition-duration: 0s;
