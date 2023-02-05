@@ -19,23 +19,27 @@
 @media (max-width: 725px) {
 
     body {
-        background-image: url(./imagens/mobile1080x1920.png);
+        background-image: url(./imagens/mobile825x1080.png);
         height: 100vh;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
     }
-    
+
     header {
-        height: 100px;
         display: flex;
+    }
+
+    header #logo {
         align-items: center;
-        justify-content: center;
+        margin-left: 20px
+    }
+
+    header .menu li {
+        display: none;
     }
   
-    .menu {
-        padding-right: 0;
-    }
+
 
     main {
         margin-left: 10px;
