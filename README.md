@@ -32,7 +32,7 @@ Projeto iniciado com participação da Imersão Alura, um evento gratuito que es
 🧑‍🚀 A idéia deste projeto foi inspirada no 1° dia da imersão AluraDev apresentado por Paulo Silveira, Rafaella ballerini e Guilherme Lima. <br>
 Não satisfeito rs, parei tudo que estava fazendo e estilizei com o que aprendi de CSS e Html até hoje, ainda estou deixando ele responsivo e convidei meu amigo @FernandoMontanari(GitHub) que é aluno da ALURA para implementar o JavaScript em uma PULL Resquest sobre a minha versão com dados alimentandos por uma API e uma interface de design moderno e fácil uso!
 
-Trata-se de uma empresa fictícia, com logo e mockup criado por mim pelo Corel Draw para ter uma entrega apresentável, background com créditos mais abaixo e que todos os projetos daqui pra frente sejam desafiadores como este. ❤️‍🔥
+Trata-se de uma empresa fictícia, com logo e mockup criado por mim pelo Adobe Illustrator para ter uma entrega demosntrando a experiêcnia do cliente, background com créditos mais abaixo e que todos os projetos daqui pra frente sejam desafiadores como este. ❤️‍🔥
 
 <br>
 
@@ -45,7 +45,7 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 <li> JavaScript
 <li> Git and GitHub
 <li> Consumo de API
-<li> Corel Draw 2022
+<li> Adobe Illustrator
 
 ## 💻 Projeto
 
