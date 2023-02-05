@@ -23,14 +23,19 @@
         height: 100vh;
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: top;
+        background-position: center;
     }
     
     header {
         height: 100px;
         display: flex;
+        align-items: center;
+        justify-content: center;
     }
   
+    .menu {
+        padding-right: 0;
+    }
 
     main {
         margin-left: 10px;
