@@ -20,7 +20,9 @@
 
     body {
         margin: 0;
-        background-image: url(./imagens/mobile825x1080.png);
+        padding: 0px;
+        /* background-image: url(./imagens/mobile825x1080.png); */
+        background-image: linear-gradient(45deg, #f0c419, #ea8d00);
         height: 100vh;
         background-size: cover;
         background-repeat: no-repeat;
@@ -29,26 +31,16 @@
 
     header {
         display: flex;
-    }
-
-    header #logo {
         align-items: center;
-        margin-left: 20px
+        justify-content: center;
     }
-
-    header .menu li {
-        display: none;
-    }
-  
-
 
     main {
-        margin-left: 10px;
+        margin: auto;
         transition-duration: 0s;
         width: 280px;
         padding: 40px 0px 20px;
         border-radius: 60px 10px 60px 10px;
-
     }
 
     .container-titulo {
