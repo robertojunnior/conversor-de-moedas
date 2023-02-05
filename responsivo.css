@@ -29,10 +29,8 @@
         background-position: center;
     }
 
-    header {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    #logo {
+        margin-left: 20px;
     }
 
     main {
