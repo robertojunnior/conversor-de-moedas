@@ -2,7 +2,7 @@
 @media (max-width: 1599px ) {
     main {
         margin-left:130px;
-        transition-duration: 3s; 
+        /* transition-duration: 3s;  */
                
     }
 }
@@ -10,7 +10,7 @@
 @media (min-width: 1600px ) {
     main {
         margin-left:200px;
-        transition-duration: 3s;
+        /* transition-duration: 1s; */
         margin-top: 140PX;
     }
 }
