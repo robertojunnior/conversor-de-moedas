@@ -61,7 +61,7 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Feito com ♥ by Roberto Junior 😁:wave: 
+Feito com ♥ by Roberto Junior & Fernando Montanari 😁:wave: 
 <br>🧑‍🚀[Inscreva-se no canal do YouTube da Alura!](https://www.youtube.com/@Alura)
 
     
