@@ -1,8 +1,8 @@
-/* Responsivo para desktop hd & Full hd widescreen */
+/* Responsivo para desktop hd & Full hd ultrawide */
 @media (max-width: 1599px ) {
     main {
         margin-left:130px;
-        transition-duration: 3s; 
+        /* transition-duration: 3s;  */
                
     }
 }
@@ -10,7 +10,7 @@
 @media (min-width: 1600px ) {
     main {
         margin-left:200px;
-        transition-duration: 3s;
+        /* transition-duration: 1s; */
         margin-top: 140PX;
     }
 }
@@ -22,7 +22,7 @@
     body {
         margin: 0;
         padding: 0px;
-        background-image: linear-gradient(45deg, #f0c419, #ea8d00);
+        background: linear-gradient(45deg, #f0c419, #ea8d00);
         height: 100vh;
         background-size: cover;
         background-repeat: no-repeat;
