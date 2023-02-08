@@ -35,7 +35,9 @@
                     <h1 id="chamada">Digite o valor para conversão</h1>
                     <div class="digiteValor">
                         <label class="label" for="text">Digite o valor</label>
-                        <input type="text" id="valor" placeholder="Insira o valor">
+                        <input data-js="currency-one-times" type="text" id="valor" placeholder="Insira o valor">
+                        <p data-js="converted-value" style="color:White; margin-top:10px;"></p>
+                        <p data-js="converted-precision" style="color:White; margin-top:10px;"></p>
                     </div>
                 </div>
 
@@ -45,34 +47,26 @@
                         <label class="label" for="text">Moedas</label>
                         <div class="selecao-moedas">
                             <select id="moeda1">
-                            <option value="BRL">BRL</option>
-                            <option value="EUR">EUR</option>
-                            <option value="USD">USD</option>
-                            <option value="GBP">GBP</option>
                             </select>
                     
                             <label class="label" for="text">X</label>
                     
                             <select id="moeda2">
-                            <option value="USD">USD</option>
-                            <option value="EUR">EUR</option>
-                            <option value="GBP">GBP</option>
-                            <option value="BRL">BRL</option>
                             </select>
                         </div>  
                     </div>
 
-                    <button id="converterBtn">converter</button>
+                    <button data-js="button-convert" id="converterBtn">converter</button>
                     <div class="resultado">
                         <label  class="label" for="text">Resultado</label>
-                        <p id="resultado">0</p>
+                        <p data-js="convert-result" id="resultado" value="0">0</p>
                     </div>
                 </div>
             </div>
             
        </main>
 
-       <script src="script.js"></script>
+       <script src="js/main.js"></script>
         
     </body>
 </html>
