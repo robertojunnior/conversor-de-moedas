@@ -9,11 +9,11 @@ body {
   box-sizing: border-box;
   font-family: 'poppins', arial;
   background-image: url(./imagens/background-conversor-roberjunnior2.png);
-  background-size: cover;
-  background-repeat: no-repeat;
   height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat !important;
   background-position: center;
- 
+  padding: 1px !important;
 }
 
 header {

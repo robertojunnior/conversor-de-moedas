@@ -24,9 +24,6 @@
         padding: 0px;
         background: linear-gradient(45deg, #f0c419, #ea8d00);
         height: 100vh;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
     }
 
     #logo {
