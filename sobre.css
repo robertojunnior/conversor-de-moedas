@@ -7,7 +7,8 @@
   
 main {
     width: 34rem;
-    margin-left: 8.125rem;
+    margin-left: 10rem;
+    margin-top: -1rem;
     padding: 2rem;
     text-align: justify;
 }
@@ -56,7 +57,7 @@ article {
 
 /* Responsivo Mobile */
 
-@media (max-width: 725px) {
+@media (max-width: 1080px) {
 
     body {
         margin: 0;
@@ -105,7 +106,7 @@ article {
 
 @media (min-width: 1400px) {
     main {
-        margin-left: 12.5rem;
+        margin-left: 16rem;
         margin-top: 5rem;
     }
     h1 {
