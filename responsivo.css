@@ -38,10 +38,6 @@
         height: 100%;
         gap: 10px;
     }
-
-    .lista {
-        display: none;
-    }
     
     main {
         margin: auto;

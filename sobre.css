@@ -4,7 +4,7 @@
     text-decoration: none;
     color: #ffffff;
   }
-
+  
 main {
     width: 34rem;
     margin-left: 8.125rem;
@@ -99,4 +99,19 @@ article {
     h1 {
         font-size: 1.2rem;
     }
+}
+
+/* responsivo ultrawide */
+
+@media (min-width: 1400px) {
+    main {
+        margin-left: 12.5rem;
+        margin-top: 5rem;
+    }
+    h1 {
+        font-size: 1.6rem;
+    }
+    p {
+        font-size: 1rem;
+    }   
 }
