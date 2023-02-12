@@ -43,10 +43,10 @@ header {
 
 main {
   background-color: #2f2f2f;
-  border-radius: 60px 10px 60px 10px;
-  margin-left:130px;
-  padding: 10px;
-  width: 550px;
+  border-radius: 3.75rem 0.625rem 3.75rem 0.625rem;
+  margin-left: 10rem;
+  padding: 0.625rem;
+  width: 34rem;
   box-shadow: 5px 10px 10px rgba(73, 50, 20, 0.2);
 }
 
@@ -54,7 +54,7 @@ main {
 .container-titulo {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 1.1rem;
 }
 
 #titulo-programa {
@@ -66,7 +66,7 @@ main {
 }
 
 #icone-moeda {
-  width: 130px;
+  width: 8.75rem;
 }
 
 
@@ -78,21 +78,21 @@ main {
 /* ------------------------------------BOX 2 */
 #chamada {
   color: #ffffff;
-  font-size: 29px;
+  font-size: 1.8rem;
   width: 100%;
   padding-bottom: 10px;
 }
 
 button {
   background-color: #F19400;
-  width: 220px;
+  width: 13.75rem;
   color: #ffffff;
-  font-size: 25px;
+  font-size: 1.6rem;
   font-weight: 600;
-  padding: 10px;
+  padding: 0.625rem;
   border: 1px solid #ffffff;
-  border-radius: 10px 3px;
-  margin: 30px 0px 10px 0px;
+  border-radius: 0.625rem 3px;
+  margin: 1.87rem 0 0.625rem 0;
   cursor: pointer;
 }
 
@@ -107,34 +107,33 @@ button:hover {
 .valores {
   display: flex;
   align-items: center;
-  padding: 0px 30px 40px;
+  padding: 0px 1.87rem 2.5rem;
 }
 
 .label {
   color: #E8A824;
-  padding-bottom: 10px;
+  padding-bottom: 0.625rem;
 }
 
 input {
-  padding: 20px;
-  width: 200px;
-  border-radius: 10px 5px;
+  padding: 1.25rem;
+  width: 12.5rem;
+  border-radius: 0.625rem 0.3rem;
   color: #2f2f2f;
 }
 
 .selecao-moedas {
-  width: 220px;
+  width: 13.75rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 14px;
+  font-size: 0.9rem;
   border: none;
 }
 
 .selecao-moedas select {
-  padding: 20px;
-  border-radius: 10px 5px;
-  font-size: 12px;
+  padding: 1.25rem;
+  border-radius: 0.625rem 0.3rem;
   color: #2f2f2f;
   border-width: 2px;
   border-style: inset;
@@ -144,16 +143,15 @@ input {
 
 #resultado {
   background-color: rgb(255, 255, 255);
-  width: 180px;
-  padding: 18px;
-  border-radius: 10px 5px;
-  font-size: 14px;
+  width: 11.25rem;
+  padding: 1.1rem;
+  border-radius: 0.625rem 0.3rem;
   color: #2f2f2f;
   border-width: 2px;
   border-style: inset;
   border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
   color: #2f2f2f;
-  margin-top: 10px;
+  margin-top: 0.5px;
 }
 
 /* FIM BOX's */

@@ -1,14 +1,14 @@
 /* Responsivo para desktop hd & Full hd ultrawide */
-@media (min-width: 1600px ) {
+@media (min-width: 100rem) {
     main {
-        margin-left:200px;
-        margin-top: 140PX;
+        margin-left:12.5rem;
+        margin-top: 8.75rem;
     }
 }
 
 /* Responsivo mobile */
 
-@media (max-width: 1080px) {
+@media (max-width: 53rem) {
 
     body {
         margin: 0;
@@ -17,11 +17,11 @@
     }
 
     #logo {
-        margin-left: 20px;
+        margin-left: 1.25rem;
     }
 
     #github {
-        margin-right: 20px;
+        margin-right: 1.25rem;
     }
 
     .menu {
@@ -29,15 +29,15 @@
         align-items: center;
         padding-right: 0px;
         height: 100%;
-        gap: 10px;
+        gap: 0.625rem;
     }
     
     main {
         margin: auto;
         margin-bottom: 2rem;
-        width: 300px;
-        padding: 20px 0px 0px;
-        border-radius: 60px 10px 60px 10px;
+        width: 18.75rem;
+        padding: 1.25rem 0px 0px;
+        /* border-radius: 3.75rem 0.625rem 3.75rem 0.625rem; */
     }
 
     .container-titulo {
@@ -50,13 +50,13 @@
     }
 
     #titulo-programa {
-        font-size: 30px;
+        font-size: 1.875rem;
         padding: 0px;
     }
 
     #icone-moeda {
         width: 70px;
-        padding-bottom: 20px;
+        padding-bottom: 1.25rem;
     }
 
     .valores {
@@ -75,7 +75,7 @@
 
 
     #chamada {
-        font-size: 24px;
+        font-size: 1.5rem;
         align-items: center;
         text-align: center;
         flex-direction: column;
