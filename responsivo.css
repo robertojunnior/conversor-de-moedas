@@ -2,7 +2,6 @@
 @media (max-width: 1599px ) {
     main {
         margin-left:130px;
-        /* transition-duration: 3s;  */
                
     }
 }
@@ -10,7 +9,6 @@
 @media (min-width: 1600px ) {
     main {
         margin-left:200px;
-        /* transition-duration: 1s; */
         margin-top: 140PX;
     }
 }
@@ -23,7 +21,6 @@
         margin: 0;
         padding: 0px;
         background: linear-gradient(45deg, #f0c419, #ea8d00);
-        height: 100vh;
     }
 
     #logo {
@@ -48,7 +45,7 @@
     
     main {
         margin: auto;
-        transition-duration: 0s;
+        margin-bottom: 2rem;
         width: 300px;
         padding: 20px 0px 0px;
         border-radius: 60px 10px 60px 10px;

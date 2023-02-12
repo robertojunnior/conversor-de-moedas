@@ -4,16 +4,16 @@
   text-decoration: none;
   color: #2f2f2f;
 }
-
+ 
 body {
   box-sizing: border-box;
   font-family: 'poppins', arial;
   background-image: url(./imagens/background-conversor-roberjunnior2.png);
-  height: 100vh;
+  min-height: 100vh;
   background-size: cover;
-  background-repeat: no-repeat !important;
+  background-repeat: no-repeat;
   background-position: center;
-  padding: 1px !important;
+
 }
 
 header {
@@ -49,6 +49,7 @@ main {
   padding: 10px;
   width: 550px;
   box-shadow: 5px 10px 10px rgba(73, 50, 20, 0.2);
+  margin-bottom: 3rem;
 }
 
 /* -------------------------------BOX 1 */

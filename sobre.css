@@ -2,21 +2,101 @@
     margin: 0;
     list-style: none;
     text-decoration: none;
-    color: #2f2f2f;
+    color: #ffffff;
   }
 
 main {
-    background-color: #2f2f2f;
-    width: 600px;
-    margin-left: 200px;
+    width: 34rem;
+    margin-left: 8.125rem;
+    padding: 2rem;
+    text-align: justify;
 }
 
 h1 {
-    padding: 20px;
+    padding: 0 0 1.5rem 0 ;
     height: 1.5rem;
     color: #ffffff;
+    text-align: center;
 }
 
-p {
+article {
+    font-size: 0.85rem;
 }
-  
+
+.devs {
+    display: inline-block;
+
+}
+
+.devs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.contato-repositorio img {
+    border-radius: 50%;
+    border: 3px solid #fca500;
+    width: 3rem;
+}
+
+.contato-repositorio {
+    color: #ffffff;
+    font-size: 0.8rem;
+}
+
+.lista {
+    color: #2f2f2f;
+}
+
+.external {
+    color: rgb(106, 106, 173);
+}
+
+/* Responsivo Mobile */
+
+@media (max-width: 725px) {
+
+    body {
+        margin: 0;
+        padding: 0px;
+        background: linear-gradient(45deg, #f0c419, #ea8d00);
+    }
+
+    #logo {
+        margin-left: 20px;
+    }
+
+    #github {
+        margin-right: 20px;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+        padding-right: 0px;
+        height: 100%;
+        gap: 10px;
+    }
+
+    .lista {
+        display: none;
+    }
+    
+    main {
+        margin: auto;
+        margin-bottom: 1.5rem;
+        width: 80vw;
+        padding: 2rem
+    }
+
+    main section p {
+        text-indent: 2rem;
+    }
+
+
+    h1 {
+        font-size: 1.2rem;
+    }
+}
