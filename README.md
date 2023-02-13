@@ -30,9 +30,9 @@ Projeto iniciado com participação da Imersão Alura, um evento gratuito que es
 
 <br>
 🧑‍🚀 A idéia deste projeto foi inspirada no 1° dia da imersão AluraDev apresentado por Paulo Silveira, Rafaella ballerini e Guilherme Lima. <br>
-<br>Não satisfeito rs, parei tudo que estava fazendo e estilizei com o que aprendi de CSS e Html até hoje, ainda estou deixando ele responsivo e convidei meu amigo @FernandoMontanari(GitHub) que é aluno da ALURA para implementar o JavaScript em uma PULL Resquest sobre a minha versão com dados alimentandos por uma API e uma interface de design moderno e fácil uso!
+<br>Foi desenvolvido com o que aprendi de html e css até o momento, em parceria com meu amigo Fernando Montanari que é aluno da ALURA, ficando responsável por implantar o JavaScript no código em uma PULL Resquest sobre a minha versão com dados alimentandos por uma API e interface de design moderno e fácil uso!
 <br>
-<br>Trata-se de uma empresa fictícia, com logo e mockup criado por mim pelo Adobe Illustrator, o background possui créditos mais abaixo e espero que todos os projetos daqui pra frente sejam desafiadores como este. ❤️‍🔥
+<br>Trata-se de uma empresa fictícia, com logo e mockup de entrega criadas no Adobe Illustrator e espero que todos os projetos daqui pra frente sejam desafiadores como este pois agora também sou aluno da ALURA ❤️‍🔥. ❤️‍🔥
 
 ## 🚀 Tecnologias
 
@@ -47,8 +47,7 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Nossa intenção é fazer com que o conversor de moedas lhe possibilite acessar on-line a cotação no momento atual e converter o valor desejado consumindo a API da <a href="https://www.exchangerate-api.com/">EXCHANGE RATE.</a>
-Como ainda estou iniciando nos estudos de JavaScript, o Fernando ficou na missão de implantá-lo e vamos evoluindo conforme os estudos avançarem 🚀.
+Nossa intenção é fazer com que o conversor de moedas lhe possibilite acessar on-line a cotação no momento atual e converter o valor desejado consumindo a API da <a href="https://www.exchangerate-api.com/">EXCHANGE RATE.</a>🚀
 
 [Visite o projeto online](https://robertojunnior.github.io/conversor-de-moedas/)
 
