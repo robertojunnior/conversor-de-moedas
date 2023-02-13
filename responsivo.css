@@ -1,7 +1,7 @@
 /* Responsivo para desktop hd & Full hd ultrawide */
 @media (min-width: 100rem) {
     main {
-        margin-left:12.5rem;
+        margin-left:16rem;
         margin-top: 8.75rem;
     }
 }
