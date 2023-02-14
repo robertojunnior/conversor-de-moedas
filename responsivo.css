@@ -13,6 +13,7 @@
         margin: 0;
         padding: 0px;
         background: linear-gradient(45deg, #f0c419, #ea8d00);
+        height: 100vh;
     }
 
     #logo {
@@ -33,7 +34,7 @@
 
     main {
         margin: auto;
-        margin-bottom: 2rem;
+        margin-top: 6rem;
         width: 18.75rem;
         padding: 1.25rem 0px 0px;
     }
