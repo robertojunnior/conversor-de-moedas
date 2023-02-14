@@ -1,14 +1,10 @@
 * {
-    margin: 0;
-    list-style: none;
-    text-decoration: none;
     color: #ffffff;
   }
   
 main {
     width: 34rem;
     margin-left: 10rem;
-    margin-top: -1rem;
     padding: 2rem;
     text-align: justify;
 }
@@ -85,11 +81,14 @@ article {
         display: none;
     }
     
+   
     main {
         margin: auto;
-        margin-bottom: 1.5rem;
+        margin-top: 5rem;
         width: 80vw;
-        padding: 2rem
+        padding: 2rem;
+
+        
     }
 
     main section p {
@@ -104,10 +103,9 @@ article {
 
 /* responsivo ultrawide */
 
-@media (min-width: 1400px) {
+@media (min-width: 90rem) {
     main {
         margin-left: 16rem;
-        margin-top: 5rem;
     }
     h1 {
         font-size: 1.6rem;

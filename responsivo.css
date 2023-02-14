@@ -1,12 +1,11 @@
 /* Responsivo para desktop hd & Full hd ultrawide */
-@media (min-width: 100rem) {
+@media (min-width: 90rem) {
     main {
         margin-left:16rem;
-        margin-top: 8.75rem;
     }
 }
 
-/* Responsivo mobile */
+/* Responsivo mobile 850px */
 
 @media (max-width: 53rem) {
 
@@ -31,13 +30,12 @@
         height: 100%;
         gap: 0.625rem;
     }
-    
+
     main {
         margin: auto;
         margin-bottom: 2rem;
         width: 18.75rem;
         padding: 1.25rem 0px 0px;
-        /* border-radius: 3.75rem 0.625rem 3.75rem 0.625rem; */
     }
 
     .container-titulo {
