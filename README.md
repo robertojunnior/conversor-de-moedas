@@ -2,7 +2,7 @@
 <h1 align="center"> CONVERSOR DE MOEDAS </h1>
 
 <p align="center">
-Projeto iniciado com participação da Imersão Alura, um evento gratuito que está na sua 6ª edição. <br/>
+Projeto iniciado com participação na Imersão Alura, um evento gratuito que está na sua 6ª edição. <br/>
 </p>
 
 <p align="center">
