@@ -2,7 +2,7 @@
 <h1 align="center"> CONVERSOR DE MOEDAS </h1>
 
 <p align="center">
-Projeto iniciado com participação da Imersão Alura, um evento gratuito que está na sua 6ª edição. <br/>
+Projeto iniciado com participação na Imersão Alura, um evento gratuito que está na sua 6ª edição. <br/>
 </p>
 
 <p align="center">
@@ -32,7 +32,7 @@ Projeto iniciado com participação da Imersão Alura, um evento gratuito que es
 🧑‍🚀 A idéia deste projeto foi inspirada no 1° dia da imersão AluraDev apresentado por Paulo Silveira, Rafaella ballerini e Guilherme Lima. <br>
 <br>Foi desenvolvido com o que aprendi de html e css até o momento, em parceria com meu amigo Fernando Montanari que é aluno da ALURA, ficando responsável por implantar o JavaScript no código em uma PULL Resquest sobre a minha versão com dados alimentandos por uma API e interface de design moderno e fácil uso!
 <br>
-<br>Trata-se de uma empresa fictícia com logo e mockup de entrega criadas no Adobe Illustrator, espero que todos os projetos daqui pra frente sejam desafiadores como este pois agora também sou aluno da ALURA ❤️‍🔥.
+<br>Trata-se de uma empresa fictícia com logo e mockup de entrega desenvolvidos para este projeto, espero que todos os projetos daqui pra frente sejam desafiadores como este pois agora também sou aluno da ALURA ❤️‍🔥.
 
 ## 🚀 Tecnologias
 
@@ -43,7 +43,6 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 <li> JavaScript
 <li> Git and GitHub
 <li> Consumo de API
-<li> Adobe Illustrator
 
 ## 💻 Projeto
 
