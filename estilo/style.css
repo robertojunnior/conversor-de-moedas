@@ -13,17 +13,13 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
-  display: grid;
-  align-items: center;
-  grid-template-columns: 50% 50%;
 }
 
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
+  padding: 1rem;
 }
 
 .logo #logo{
@@ -31,16 +27,8 @@ header {
  
 }
 
-.menu {
-  display: flex;
-  align-items: center;
-  padding-right: 80px;
-  height: 100%;
-  gap: 10px;
-}
-
-.menu img {
-  width: 40px;
+nav img {
+  width: 30px;
 }
 
 main {
