@@ -4,8 +4,6 @@
   text-decoration: none;
   color: #2f2f2f;
   font-family: 'poppins', arial;
-  box-sizing: border-box;
-  
 }
  
 body {
@@ -38,13 +36,14 @@ nav img {
 }
 
 main {
-  padding: 0 10% 0;
+  padding: 0 10%;
 }
 
 .container-principal {
+  box-sizing: border-box;
   display: flex;
   align-items: center;
-  max-width: 50%;
+  width: 32rem;
   padding: 1.5rem 3rem 2.5rem 1.5rem;
   gap: 2rem;
   background-color: #2f2f2f;
@@ -66,7 +65,7 @@ main {
   color: #ffffff;
   line-height: 2.5rem;
   font-weight: 800;
-  font-size: 2.5rem;
+  font-size: 1.85rem;
 }
 
 #icone-moeda {
@@ -80,7 +79,7 @@ main {
 
 .subtitulo-programa {
   color: #ffffff;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 2rem;
 }
 
@@ -93,6 +92,7 @@ main {
 
 .label {
   color: #E8A824;
+  margin-bottom: 3px;
 }
 
 .instrucao {

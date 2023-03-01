@@ -1,14 +1,13 @@
-/* Responsivo para desktop hd & Full hd ultrawide */
-/* @media (min-width: 90rem) {
+/* Responsivo desktop ultrawide 2160px */
+@media (min-width: 90rem) {
     main {
-        margin-left: 13%;
-        max-width: 32%;
+        padding: 5% 10%;
     }
-} */
+}
 
 /* Responsivo mobile 850px */
 
-@media (max-width: 53rem) {
+@media (max-width: 38rem) {
 
     body {
         background: linear-gradient(45deg, #f0c419, #ea8d00);
