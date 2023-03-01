@@ -1,9 +1,10 @@
 /* Responsivo para desktop hd & Full hd ultrawide */
-@media (min-width: 90rem) {
+/* @media (min-width: 90rem) {
     main {
-        margin-left:16rem;
+        margin-left: 13%;
+        max-width: 32%;
     }
-}
+} */
 
 /* Responsivo mobile 850px */
 
