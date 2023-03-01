@@ -8,10 +8,18 @@
 /* Responsivo mobile 850px */
 
 @media (max-width: 38rem) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
 
     body {
         background: linear-gradient(45deg, #f0c419, #ea8d00);
         height: 100vh;
+    }
+
+    .container-principal {
+        max-width: 80%;
     }
 
     #logo {
@@ -28,13 +36,6 @@
         padding-right: 0px;
         height: 100%;
         gap: 0.625rem;
-    }
-
-    main {
-        margin: auto;
-        margin-top: 6rem;
-        width: 18.75rem;
-        padding: 1.25rem 0px 0px;
     }
 
     .container-titulo {

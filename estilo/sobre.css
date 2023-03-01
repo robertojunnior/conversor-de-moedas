@@ -1,28 +1,24 @@
 * {
     color: #ffffff;
+    font-size: 0.90rem;
   }
-  
-main {
-    width: 34rem;
-    margin-left: 10rem;
-    padding: 2rem;
+
+  body
+
+.container-principal {
+    padding: 1.25rem 1.75rem;
     text-align: justify;
 }
-
 h1 {
     padding: 0 0 1.5rem 0 ;
     height: 1.5rem;
     color: #ffffff;
     text-align: center;
+    font-size: 1.25rem;
 }
 
 article {
     font-size: 0.85rem;
-}
-
-.devs {
-    display: inline-block;
-
 }
 
 .devs {
@@ -36,11 +32,6 @@ article {
     border-radius: 50%;
     border: 3px solid #fca500;
     width: 3rem;
-}
-
-.contato-repositorio {
-    color: #ffffff;
-    font-size: 0.8rem;
 }
 
 .lista {
@@ -94,7 +85,6 @@ article {
     main section p {
         text-indent: 2rem;
     }
-
 
     h1 {
         font-size: 1.2rem;
