@@ -4,12 +4,10 @@
   text-decoration: none;
   color: #2f2f2f;
   font-family: 'poppins', arial;
+  box-sizing: border-box;
 }
  
 body {
-  box-sizing: border-box;
-  display: grid;
-  
   background-image: url(../imagens/background-conversor-roberjunnior2.png);
   height: 100vh;
   background-size: cover;
@@ -34,11 +32,12 @@ nav img {
 }
 
 main {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  max-width: 50%;
+  padding: 1.5rem;
   background-color: #2f2f2f;
   border-radius: 3.75rem 0.625rem 3.75rem 0.625rem;
-  /* margin-left:10rem;
-  padding: 0.625rem; */
-  width: 34rem;
   box-shadow: 5px 10px 10px rgba(73, 50, 20, 0.2);
 }
 
@@ -46,7 +45,7 @@ main {
 .container-titulo {
   display: flex;
   align-items: center;
-  gap: 1.1rem;
+  flex-direction: column;
 }
 
 #titulo-programa {
@@ -60,7 +59,6 @@ main {
 #icone-moeda {
   width: 8.75rem;
 }
-
 
 #icone-moeda:hover {
   transform: scale(1.1);
@@ -96,9 +94,11 @@ button:hover {
 
 /* -------------------------------------BOX 3 */
 
-.valores {
+.container-valores {
   display: flex;
   align-items: center;
+  flex-direction: column;
+  justify-content: center;
   padding: 0px 1.87rem 2.5rem;
 }
 
@@ -109,10 +109,21 @@ button:hover {
 
 input {
   padding: 1.25rem;
-  width: 12.5rem;
+  width: 100%;
   border-radius: 0.625rem 0.3rem;
   color: #2f2f2f;
 }
+
+.campo-valores {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* input p {
+  text-align: center;
+} */
 
 .selecao-moedas {
   width: 13.75rem;
