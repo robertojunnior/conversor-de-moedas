@@ -8,6 +8,8 @@
  
 body {
   box-sizing: border-box;
+  display: grid;
+  
   background-image: url(../imagens/background-conversor-roberjunnior2.png);
   height: 100vh;
   background-size: cover;
