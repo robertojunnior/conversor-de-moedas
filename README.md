@@ -29,8 +29,8 @@ Projeto iniciado com participação na Imersão Alura, um evento gratuito que es
 <br>
 
 <br>
-🧑‍🚀 A idéia deste projeto foi inspirada no 1° dia da imersão AluraDev apresentado por Paulo Silveira, Rafaella ballerini e Guilherme Lima. <br>
-<br>Foi desenvolvido com o que aprendi de html e css até o momento, em parceria com meu amigo Fernando Montanari que é aluno da ALURA, ficando responsável por implantar o JavaScript no código em uma PULL Resquest sobre a minha versão com dados alimentandos por uma API e interface de design moderno e fácil uso!
+🧑‍🚀 A idéia deste projeto foi inspirada no 1° dia da imersão AluraDev apresentado por Paulo Silveira, Rafaella Ballerini e Guilherme Lima. <br>
+<br>Fiquei responsável pelo html e css, junto a parceria com meu amigo Fernando Montanari que é aluno da ALURA, ficando responsável por implantar o JavaScript no código por uma Pull Resquest sobre a minha versão com dados alimentandos por uma API, interface de design moderno e fácil uso!
 <br>
 <br>Trata-se de uma empresa fictícia com logo e mockup de entrega desenvolvidos para este projeto, espero que todos os projetos daqui pra frente sejam desafiadores como este pois agora também sou aluno da ALURA ❤️‍🔥.
 
@@ -51,7 +51,6 @@ Nossa intenção é fazer com que o conversor de moedas lhe possibilite acessar 
 [Visite o projeto online](https://robertojunnior.github.io/conversor-de-moedas/)
 
 ## 🔖 Layout
-Este projeto foi desenvolvido com Adobe Illustrator.<br>
 🖼️ A imagem do background pertence a <a href="https://br.freepik.com/fotos-gratis/close-up-em-uma-jovem-atraente-e-despreocupada-sentada-no-chao_12950967.htm#query=pessoa%20telefone&position=9&from_view=keyword">wayhomestudio</a> no Freepik.
 
 ## :memo: Licença
