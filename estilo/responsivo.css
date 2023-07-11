@@ -30,7 +30,8 @@
     }
 
     main {
-        margin: 6rem auto;
+        margin: auto;
+        margin-top: 6rem;
         width: 18.75rem;
         padding: 1.25rem 0px 0px;
     }
