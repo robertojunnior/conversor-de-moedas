@@ -10,8 +10,8 @@
 @media (max-width: 53rem) {
 
     body {
-        background: linear-gradient(45deg, #f0c419, #ea8d00);
-        height: 100vh;
+        background: linear-gradient(90deg, #f0c419, #ea8d00);
+        margin-bottom: 100px;
     }
 
     #logo {
