@@ -86,14 +86,14 @@ const showUpdatedRates = ({ conversion_rates }) => {
 }
 
 const showInitialInfo = ({ conversion_rates }) => {
-    inputMoeda1.innerHTML = getOptions('USD', conversion_rates)
-    inputMoeda2.innerHTML = getOptions('BRL', conversion_rates)
+    inputMoeda2.innerHTML = getOptions('USD', conversion_rates)
+    inputMoeda1.innerHTML = getOptions('BRL', conversion_rates)
 
     showUpdatedRates({ conversion_rates })
 }
 
 const init = async () => {
-    const url = getUrl('USD');
+    const url = getUrl('BRL');
     const exchangeRate = await fetchExchangeRate(url);
 
     if (exchangeRate && exchangeRate.conversion_rates) {
