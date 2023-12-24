@@ -55,7 +55,7 @@ Nossa intenção é fazer com que o conversor de moedas lhe possibilite acessar 
 
 ## :memo: Licença
 
-Esse projeto está sob a licença MIT.
+Este projeto está sob a licença MIT.
 
 ---
 
