@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="estilo/style.css">
-        <link rel="stylesheet" href="estilo/responsivo.css">
-        <link rel="shortcut icon" href="./imagens/money-bag.png" type="image/x-icon">
-        <title>Fácil Assim - Conversor de Moedas</title>
-    </head>
-    <body>
-        <header>
-            <a href="#">
-                <img id="logo" src="./imagens/logo.png" alt="logo-facil-assim">
-            </a>
 
-            <nav>
-                <ul class="menu">
-                    <li><a class="lista" href="./sobre.html">Sobre</a></li>
-                    <li><a id="github" href="https://github.com/robertojunnior/"><img src="./imagens/icon-github.png" alt="icone github"></a>
-                </ul>
-            </nav>
-        </header>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/responsivo.css">
+    <link rel="shortcut icon" href="./imagens/money-bag.png" type="image/x-icon">
+    <title>Fácil Assim - Conversor de Moedas</title>
+</head>
 
-       <main>
-           <div class="container-titulo">
-               <h1 id="titulo-programa">Conversor <br>de Moedas</h1>
-               <img id="icone-moeda" src="./imagens/icone-moeda.png" alt="icone-moeda">
-           </div>
-            
+<body>
+    <header>
+        <a href="#">
+            <img id="logo" src="./imagens/logo.png" alt="logo-facil-assim">
+        </a>
+
+        <nav>
+            <ul class="menu">
+                <li><a class="lista" href="./sobre.html">Sobre</a></li>
+                <li><a id="github" href="https://github.com/robertojunnior/"><img src="./imagens/icon-github.png"
+                            alt="icone github"></a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="conteudo">
+            <div class="container-titulo">
+                <h1 id="titulo-programa">Conversor <br>de Moedas</h1>
+                <img id="icone-moeda" src="./imagens/icone-moeda.png" alt="icone-moeda">
+            </div>
+
             <div class="valores">
                 <div class="instrucao">
                     <h1 id="chamada">Digite o valor para conversão</h1>
@@ -39,33 +43,32 @@
                         <p data-js="converted-precision" style="color:White; margin-top:10px;"></p>
                     </div>
                 </div>
-
-
                 <div class="campo-valores">
                     <div class="moedas">
                         <label class="label" for="text">Moedas</label>
                         <div class="selecao-moedas">
                             <select id="moeda1">
                             </select>
-                    
+
                             <label class="label" for="text">X</label>
-                    
+
                             <select id="moeda2">
                             </select>
-                        </div>  
+                        </div>
                     </div>
-
                     <button data-js="button-convert" id="converterBtn">converter</button>
                     <div class="resultado">
-                        <label  class="label" for="text">Resultado</label>
+                        <label class="label" for="text">Resultado</label>
                         <p data-js="convert-result" id="resultado" value="0">0</p>
                     </div>
                 </div>
             </div>
-            
-       </main>
 
-       <script src="js/main.js"></script>
-        
-    </body>
+        </section>
+    </main>
+
+    <script src="js/main.js"></script>
+
+</body>
+
 </html>
