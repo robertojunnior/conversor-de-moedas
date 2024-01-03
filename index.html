@@ -27,44 +27,41 @@
     </header>
 
     <main>
-        <section class="conteudo">
-            <div class="container-titulo">
-                <h1 id="titulo-programa">Conversor <br>de Moedas</h1>
-                <img id="icone-moeda" src="./imagens/icone-moeda.png" alt="icone-moeda">
-            </div>
+        <div class="container-titulo">
+            <h1 id="titulo-programa">Conversor <br>de Moedas</h1>
+            <img id="icone-moeda" src="./imagens/icone-moeda.png" alt="icone-moeda">
+        </div>
 
-            <div class="valores">
-                <div class="instrucao">
-                    <h1 id="chamada">Digite o valor para conversão</h1>
-                    <div class="digiteValor">
-                        <label class="label" for="text">Digite o valor</label>
-                        <input data-js="currency-one-times" type="text" id="valor" placeholder="Insira o valor">
-                        <p data-js="converted-value" style="color:White; margin-top:10px;"></p>
-                        <p data-js="converted-precision" style="color:White; margin-top:10px;"></p>
-                    </div>
-                </div>
-                <div class="campo-valores">
-                    <div class="moedas">
-                        <label class="label" for="text">Moedas</label>
-                        <div class="selecao-moedas">
-                            <select id="moeda1">
-                            </select>
-
-                            <label class="label" for="text">X</label>
-
-                            <select id="moeda2">
-                            </select>
-                        </div>
-                    </div>
-                    <button data-js="button-convert" id="converterBtn">converter</button>
-                    <div class="resultado">
-                        <label class="label" for="text">Resultado</label>
-                        <p data-js="convert-result" id="resultado" value="0">0</p>
-                    </div>
+        <div class="valores">
+            <div class="instrucao">
+                <h1 id="chamada">Digite o valor para conversão</h1>
+                <div class="digiteValor">
+                    <label class="label" for="text">Digite o valor</label>
+                    <input data-js="currency-one-times" type="text" id="valor" placeholder="Insira o valor">
+                    <p data-js="converted-value" style="color:White; margin-top:10px;"></p>
+                    <p data-js="converted-precision" style="color:White; margin-top:10px;"></p>
                 </div>
             </div>
+            <div class="campo-valores">
+                <div class="moedas">
+                    <label class="label" for="text">Moedas</label>
+                    <div class="selecao-moedas">
+                        <select id="moeda1">
+                        </select>
 
-        </section>
+                        <label class="label" for="text">X</label>
+
+                        <select id="moeda2">
+                        </select>
+                    </div>
+                </div>
+                <button data-js="button-convert" id="converterBtn">converter</button>
+                <div class="resultado">
+                    <label class="label" for="text">Resultado</label>
+                    <p data-js="convert-result" id="resultado" value="0">0</p>
+                </div>
+            </div>
+        </div>
     </main>
 
     <script src="js/main.js"></script>
