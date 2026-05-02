@@ -9,6 +9,7 @@
 body {
   display: flex;
   align-items: center;
+  max-width: 1200px;
   box-sizing: border-box;
   background-image: url(../imagens/background-conversor-roberjunnior1.png);
   height: 100vh;
